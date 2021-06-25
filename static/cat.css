@@ -1,0 +1,101 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body {
+  background: #FCFBD7;
+} 
+
+.navbar .h1 {
+ background: transparent;
+ font-weight: 800;
+}
+
+.navbar {
+  background:#9b00e8;
+  margin:0px;
+}
+
+.navbar .butt {
+  background: transparent;
+  color: #fff;
+  width: 140px;
+  border: 2px solid#fff;
+  border-radius: 25px;
+  padding: 10px;
+  transform: translate(450%, 0%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+} 
+.navbar .butt:hover {
+  border: 2px solid#eecbff;
+  background: linear-gradient(45deg, #c85bff, #b726ff);
+}
+.navbar .butt:focus {
+  outline: none;
+} 
+
+.mycard {
+  position: relative;
+  background: #FCFBD7;
+  height: 100%;
+  width:85%;
+  margin: auto;
+
+}  
+
+.styled-table {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 945px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding:12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.mycard .butt {
+  background: transparent;
+  color: #fff;
+  width: 140px;
+  border: 2px solid#fff;
+  border-radius: 25px;
+  padding: 10px;
+  transform: translate(450%, 0%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+} 
+.mycard .butt:hover {
+  border: 2px solid#eecbff;
+  background: linear-gradient(45deg, #c85bff, #b726ff);
+}
+.mycard .butt:focus {
+  outline: none;
+} 

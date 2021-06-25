@@ -1,0 +1,128 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body {
+  background: #FCFBD7;
+} 
+
+.navbar .h1 {
+ background: transparent;
+ font-weight: 800;
+}
+
+.navbar {
+  background:#9b00e8;
+  margin:0px;
+}
+
+.navbar .butt {
+  background: transparent;
+  color: #fff;
+  width: 140px;
+  border: 2px solid#fff;
+  border-radius: 25px;
+  padding: 10px;
+  transform: translate(450%, 0%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+} 
+.navbar .butt:hover {
+  border: 2px solid#eecbff;
+  background: linear-gradient(45deg, #c85bff, #b726ff);
+}
+.navbar .butt:focus {
+  outline: none;
+} 
+
+.mycard {
+  position: relative;
+  background: #fff;
+  height: 100%;
+  width:85%;
+  margin: auto;
+
+}  
+
+
+.pass header {
+  color: blueviolet;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.pass .myInput {
+  width: 230px;
+  border-radius: 25px;
+  padding: 10px;
+  padding-left: 50px;
+  border: none;
+  -webkit-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+}
+
+.pass .myInput:focus {
+  outline: none;
+} 
+
+.pass .fas {
+  position: relative;
+  color: #bb36fd;
+  left: 36px;
+} 
+
+.pass .butt {
+  background: linear-gradient(45deg, #bb36fd, #9b00e8);
+  color: #fff;
+  width: 230px;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  transform: translate(8%, 40%);
+  -ms-transform: translate(-50%, -40%);
+  -webkit-box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+} 
+.pass .butt:hover {
+  background: linear-gradient(45deg, #c85bff, #b726ff);
+}
+.pass .butt:focus {
+  outline: none;
+} 
+
+.Patient .butt {
+  background: linear-gradient(45deg, #bb36fd, #9b00e8);
+  color: #fff;
+  width: 230px;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  transform: translate(18%, 40%);
+  -ms-transform: translate(-50%, -40%);
+  -webkit-box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+} 
+.Patient .butt:hover {
+  background: linear-gradient(45deg, #c85bff, #b726ff);
+}
+.Patient .butt:focus {
+  outline: none;
+} 
+
+.Patient header {
+  color: blueviolet;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding:5px;
+  padding-top:60px;
+  padding-left:40px;
+}

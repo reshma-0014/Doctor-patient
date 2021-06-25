@@ -1,0 +1,159 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body {
+  background: #FCFBD7;
+} 
+.container {
+  position: absolute;
+  max-width: 1200px;
+  height: 500px;
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} 
+
+.myCard {
+  position: relative;
+  background: #f7f7f7;
+  height: 10%;
+  border-radius: 25px;  
+  -webkit-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 40px -10px rgba(0, 0, 0, 0.7);
+  display:flex;
+  flex-direction: row;
+} 
+
+.myLeftCtn {
+  position: relative;
+  background:#f7f7f7;
+  height: 90%; 
+  width: 400px;
+  border-radius: 25px;
+  align-items: center;
+}
+
+.myleftimage {
+  width: 400px; 
+  height: 430px;
+  object-position: 20% 50%;
+}
+
+.myrightimage {
+  width: 200px; 
+  height: 400px;
+  object-position: 20% 10%;
+}
+
+.mycenterimage {
+  width: 400px; 
+  height: 400px;
+  object-position: 20% 10%;
+}
+
+.offset-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row{
+  height: 80%;
+  column-gap: -10px;
+  display:flex;
+  flex-direction: row;
+} 
+
+.box {
+  position: relative;
+  margin-bottom: 100px;
+} 
+
+.myCenterCtn {
+  position: relative;
+  background: #fff;
+  border-radius: 25px;
+  width: 400px;
+  background-image: linear-gradient(45deg, #f046ff, #9b00e8);
+  height: 90%;
+  align-items: center;
+}
+
+.myRightCtn {
+  background: #f7f7f7;
+  border-radius: 25px;
+  height: 90%;
+  width: 400px;
+  align-items: center;
+  display:flex;
+  flex-direction: row;
+  }
+ 
+.quotes{
+  display:flex;
+  flex-direction: column;
+}  
+
+.myLeftCtn .butt {
+  background: linear-gradient(45deg, #bb36fd, #9b00e8);
+  color: #fff;
+  width: 230px;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  transform: translate(35%, -200%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+} 
+.myLeftCtn .butt:hover {
+  background: linear-gradient(45deg, #c85bff, #b726ff);
+}
+.myLeftCtn .butt:focus {
+  outline: none;
+} 
+
+.myRightCtn .butt {
+  background: linear-gradient(45deg, #bb36fd, #9b00e8);
+  color: #fff;
+  width: 230px;
+  border: none;
+  border-radius: 25px;
+  padding: 10px;
+  transform: translate(-17%, 90%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 41px -11px rgba(0, 0, 0, 0.7);
+} 
+.myRightCtn .butt:hover {
+  background: linear-gradient(45deg, #c85bff, #b726ff);
+}
+.myRightCtn .butt:focus {
+  outline: none;
+} 
+
+.myCenterCtn .butt {
+  background: transparent;
+  color: #fff;
+  width: 140px;
+  border: 2px solid#fff;
+  border-radius: 25px;
+  padding: 10px;
+  transform: translate(90%, -200%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 49px -14px rgba(0, 0, 0, 0.7);
+} 
+.myCenterCtn .butt:hover {
+  border: 2px solid#eecbff;
+  background: linear-gradient(45deg, #c85bff, #b726ff);
+}
+.myCenterCtn .butt:focus {
+  outline: none;
+} 
